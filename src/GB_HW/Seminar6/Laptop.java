@@ -19,11 +19,11 @@ import java.util.*;
  */
 
 public class Laptop {
-    int id;
-    int ram;
-    int ssd;
-    String os;
-    String color;
+    private int id;
+    private int ram;
+    private int ssd;
+    private String os;
+    private String color;
 
     public Laptop(int id, int ram, int ssd, String os, String color){
         this.id = id;
@@ -40,5 +40,25 @@ public class Laptop {
     public boolean equals(Object o) {
         Laptop t = (Laptop) o;
         return id == t.id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public int getSsd() {
+        return ssd;
+    }
+
+    public String getOs() {
+        return os;
+    }
+
+    public String getColor() {
+        return color;
     }
 }
