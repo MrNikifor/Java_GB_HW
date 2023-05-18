@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Seminar3">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Seminar4/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Seminar4/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Seminar4/Task3.java" afterDir="false" />
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Seminar4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Seminar1/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Seminar6/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Seminar6/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Seminar6/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Seminar6/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +42,56 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Seminar4",
+    "git-widget-placeholder": "Seminar6__correctoin",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\ProjectJava\Java_GB_HW\.idea" />
-      <recent name="C:\ProjectJava\Java_GB_HW\.idea\shelf" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Task1">
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Seminar4.Task1" />
+  <component name="RunManager" selected="Application.Filter">
+    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Seminar6.Filter" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Seminar4.*" />
+          <option name="PATTERN" value="GB_HW.Seminar6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GB_HW.Seminar3.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Seminar3.Task1" />
+      <module name="Java_GB_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GB_HW.Seminar3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GB_HW.Seminar3.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Seminar3.Task2" />
+      <module name="Java_GB_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GB_HW.Seminar3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Seminar2.Task1" />
+      <module name="Java_GB_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GB_HW.Seminar2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,10 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Seminar3.Task3" />
+      <module name="Java_GB_HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GB_HW.Seminar3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Filter" />
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.GB_HW.Seminar3.Task2" />
       </list>
     </recent_temporary>
   </component>

@@ -21,13 +21,20 @@ public class Filter {
             System.out.printf("Введите значение ОЗУ: ");
             Integer ram = sc.nextInt();
             if(ram >=32){
-                System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
+                System.out.println(" Цвет - " + l3.getColor() + "; ОЗУ - " + l3.getRam() + "; SSD - " + l3.getSsd() + "; OS - "
+                + l3.getOs());
             }else if(ram < 32){
-                System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
+                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
+                        + l4.getOs());
             }else if(ram < 16){
-                System.out.printf(l1.toString() + "\n" + l2.toString());
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
+                        + l2.getOs());
             }else if(ram < 4){
-                System.out.printf(l1.toString());
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs());
             }else System.out.println("Таких ноутбуков нет!");
 
         }else if(choice == 2){
@@ -35,13 +42,21 @@ public class Filter {
             System.out.printf("Введите значение SSD: ");
             Integer ssd = sc.nextInt();
             if(ssd >=512){
-                System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
+                System.out.println(" Цвет - " + l3.getColor() + "; ОЗУ - " + l3.getRam() + "; SSD - " + l3.getSsd() + "; OS - "
+                        + l3.getOs());
             }else if(ssd < 512){
-                System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
-            }else if(ssd < 256){
-                System.out.printf(l1.toString() + "\n" + l2.toString());
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
+                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
+                        + l4.getOs());
+            }else if(ssd <= 256){
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
+                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
+                        + l4.getOs());
             }else if(ssd < 128){
-                System.out.printf(l1.toString());
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs());
             }else System.out.println("Таких ноутбуков нет!");
 
         }else if(choice == 3){
@@ -50,11 +65,19 @@ public class Filter {
             Scanner sc1 = new Scanner(System.in);
             String os = sc1.nextLine();
             if(os.equals("Windows")){
-                System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
+                        + l2.getOs() + "\n" + " Цвет - " + l3.getColor() + "; ОЗУ - " + l3.getRam() + "; SSD - " + l3.getSsd() + "; OS - "
+                        + l3.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
+                        + l4.getOs());
             }else if(os.equals("Windows 10")){
-                System.out.printf(l1.toString() + "\n" + l3.toString());
+                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
+                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
+                        + l2.getOs());
             }else if(os.equals("Windows 11")){
-                System.out.printf(l2.toString() + "\n" + l4.toString());
+                System.out.println(" Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
+                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
+                        + l4.getOs());
             }else System.out.println("Таких ноутбуков нет!");
             sc1.close();
         }
