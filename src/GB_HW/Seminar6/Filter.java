@@ -1,116 +1,74 @@
 package GB_HW.Seminar6;
+
 import java.util.*;
 
 public class Filter {
     public static void main(String[] args) {
 
-        Laptop l1 = new Laptop(1, 2, 128, "Windows 10", "Сиреневый");
-        Laptop l2 = new Laptop(2, 4, 256, "Windows 11", "Красный");
-        Laptop l3 = new Laptop(3, 32, 512, "Windows 10", "Серый");
-        Laptop l4 = new Laptop(4, 16, 256, "Windows 11", "Черный");
-        System.out.println(l1.toString());
+        Laptop l1 = new Laptop(1, 2, 128, "Windows", "Сиреневый");
+        Laptop l2 = new Laptop(2, 4, 256, "Linux", "Красный");
+        Laptop l3 = new Laptop(3, 32, 512, "Windows", "Серый");
+        Laptop l4 = new Laptop(4, 16, 256, "macOS", "Черный");
+        Set<Laptop> laptops = new HashSet<>(Arrays.asList(l1, l2, l3, l4));
 
         System.out.println("Выберите функцию:");
         System.out.println("1 - сортировка по ОЗУ");
         System.out.println("2 - сортировка по SSD");
         System.out.println("3 - сортировка по OS");
-        Scanner sc = new Scanner(System.in,"ibm866");
-        Integer choice = sc.nextInt();
-        if(choice == 1){
-
-            System.out.printf("Введите значение ОЗУ: ");
-            Integer ram = sc.nextInt();
-            if(ram >=32){
-                System.out.println(" Цвет - " + l3.getColor() + "; ОЗУ - " + l3.getRam() + "; SSD - " + l3.getSsd() + "; OS - "
-                + l3.getOs());
-            }else if(ram < 32){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
-                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
-                        + l4.getOs());
-            }else if(ram < 16){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
-                        + l2.getOs());
-            }else if(ram < 4){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs());
-            }else System.out.println("Таких ноутбуков нет!");
-
-        }else if(choice == 2){
-
-            System.out.printf("Введите значение SSD: ");
-            Integer ssd = sc.nextInt();
-            if(ssd >=512){
-                System.out.println(" Цвет - " + l3.getColor() + "; ОЗУ - " + l3.getRam() + "; SSD - " + l3.getSsd() + "; OS - "
-                        + l3.getOs());
-            }else if(ssd < 512){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
-                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
-                        + l4.getOs());
-            }else if(ssd <= 256){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
-                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
-                        + l4.getOs());
-            }else if(ssd < 128){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs());
-            }else System.out.println("Таких ноутбуков нет!");
-
-        }else if(choice == 3){
-
-            System.out.println("Введите название OS");
-            Scanner sc1 = new Scanner(System.in);
-            String os = sc1.nextLine();
-            if(os.equals("Windows")){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
-                        + l2.getOs() + "\n" + " Цвет - " + l3.getColor() + "; ОЗУ - " + l3.getRam() + "; SSD - " + l3.getSsd() + "; OS - "
-                        + l3.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
-                        + l4.getOs());
-            }else if(os.equals("Windows 10")){
-                System.out.println(" Цвет - " + l1.getColor() + " ОЗУ - " + l1.getRam() + " SSD - " + l1.getSsd() + " OS - "
-                        + l1.getOs() + "\n" + " Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
-                        + l2.getOs());
-            }else if(os.equals("Windows 11")){
-                System.out.println(" Цвет - " + l2.getColor() + " ОЗУ - " + l2.getRam() + " SSD - " + l2.getSsd() + " OS - "
-                        + l2.getOs() + "\n" + " Цвет - " + l4.getColor() + " ОЗУ - " + l4.getRam() + " SSD - " + l4.getSsd() + " OS - "
-                        + l4.getOs());
-            }else System.out.println("Таких ноутбуков нет!");
-            sc1.close();
+        System.out.println("4 - сортировать по цвету");
+        try(Scanner sc = new Scanner(System.in);) {
+            Integer choice = sc.nextInt();
+            if (choice == 1) {
+                System.out.printf("Введите значение ОЗУ: ");
+                int ram = sc.nextInt();
+                int count = 0;
+                for (Laptop lap : laptops) {
+                    if (lap.getRam() >= ram) {
+                        count++;
+                        System.out.println(lap);
+                    }
+                }
+                if (count == 0) {
+                    System.out.println("Таких ноутбуков нет!");
+                }
+            } else if (choice == 2) {
+                System.out.printf("Введите значение SSD: ");
+                int ssd = sc.nextInt();
+                int count = 0;
+                for (Laptop lap : laptops) {
+                    if (lap.getSsd() >= ssd) {
+                        count++;
+                        System.out.println(lap);
+                    }
+                }
+                 if (count == 0) {
+                    System.out.println("Таких ноутбуков нет!");
+                }
+            } else if (choice == 3) {
+                System.out.printf("Введите значение OS: ");
+                String os = sc.next();
+                int count = 0;
+                for (Laptop lap : laptops) {
+                    if (lap.getOs().equals(os)) {
+                        count++;
+                        System.out.println(lap);
+                    }
+                }if (count == 0) {
+                    System.out.println("Таких ноутбуков нет!");
+                }
+            } else if (choice == 4) {
+                System.out.printf("Введите цвет ноутбука: ");
+                String color = sc.next();
+                int count = 0;
+                for (Laptop lap : laptops) {
+                    if (lap.getColor().equals(color)) {
+                        count++;
+                        System.out.println(lap);
+                    }
+                }if (count == 0) {
+                    System.out.println("Таких ноутбуков нет!");
+                }
+            }
         }
-
-        sc.close();
     }
-
 }
-
-// Laptop l1 = new Laptop();
-// l1.id = 1;
-// l1.ram = 2;
-// l1.ssd = 128;
-// l1.os = "Windows 10 Home Edition";
-// l1.color = "Сирененвый";
-
-// Laptop l2 = new Laptop();
-// l2.id = 2;
-// l2.ram = 4;
-// l2.ssd = 256;
-// l2.os = "Windows 11 Home Edition";
-// l2.color = "Красный";
-
-// Laptop l3 = new Laptop();
-// l3.id = 3;
-// l3.ram = 32;
-// l3.ssd = 512;
-// l3.os = "Windows 11 Pro";
-// l3.color = "Черный";
-
-// Laptop l4 = new Laptop();
-// l4.id = 4;
-// l4.ram = 16;
-// l4.ssd = 512;
-// l4.os = "Windows 10 Home Edition";
-// l4.color = "Пурпурный";
