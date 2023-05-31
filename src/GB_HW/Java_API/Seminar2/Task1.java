@@ -1,4 +1,4 @@
-package GB_HW.Seminar2;
+package GB_HW.Java_API.Seminar2;
 
 public class Task1 {
     public static void main(String[] args) throws Exception {

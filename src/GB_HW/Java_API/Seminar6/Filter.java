@@ -1,4 +1,4 @@
-package GB_HW.Seminar6;
+package GB_HW.Java_API.Seminar6;
 
 import java.util.*;
 

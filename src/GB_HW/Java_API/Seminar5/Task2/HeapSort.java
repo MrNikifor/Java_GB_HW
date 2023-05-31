@@ -1,4 +1,4 @@
-package GB_HW.Seminar5.Task2;
+package GB_HW.Java_API.Seminar5.Task2;
 
 import java.util.Arrays;
 /*

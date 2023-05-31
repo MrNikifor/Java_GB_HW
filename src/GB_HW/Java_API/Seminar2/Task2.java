@@ -1,4 +1,4 @@
-package GB_HW.Seminar2;
+package GB_HW.Java_API.Seminar2;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;

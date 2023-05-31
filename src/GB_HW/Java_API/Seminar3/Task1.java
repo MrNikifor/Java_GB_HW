@@ -1,4 +1,4 @@
-package GB_HW.Seminar3;
+package GB_HW.Java_API.Seminar3;
 // Реализовать алгоритм сортировки слиянием
 public class Task1 {
 
