@@ -1,4 +1,4 @@
-package GB_HW.Seminar1;
+package GB_HW.Java_API.Seminar1;
 
 public class Test {
     public static void main(String[] args) {

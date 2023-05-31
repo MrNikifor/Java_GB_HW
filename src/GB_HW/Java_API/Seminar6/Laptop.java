@@ -1,5 +1,5 @@
-package GB_HW.Seminar6;
-import java.util.*;
+package GB_HW.Java_API.Seminar6;
+
 /**
  * Подумать над структурой класса Ноутбук для магазина техники - выделить поля и
  * методы. Реализовать в java.

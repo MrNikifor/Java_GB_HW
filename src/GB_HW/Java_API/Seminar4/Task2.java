@@ -1,4 +1,4 @@
-package GB_HW.Seminar4;
+package GB_HW.Java_API.Seminar4;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package GB_HW.Seminar5.Task1;
+package GB_HW.Java_API.Seminar5.Task1;
 
 import java.util.*;
 
