@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Seminar1">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/OrdinaryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/SpecialClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/StockClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Interfaices/iActorBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Interfaices/iMarketBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Interfaices/iQueueBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Interfaices/iReturnOrder.java" afterDir="false" />
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1/Domen/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1_VendingMachines/Domen/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1/Domen/HotDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1_VendingMachines/Domen/HotDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1/Domen/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1_VendingMachines/Domen/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1/VendingMachines/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1_VendingMachines/VendingMachines/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1/VendingMachines/MachineFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1_VendingMachines/VendingMachines/MachineFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1/VendingMachines/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar1_VendingMachines/VendingMachines/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/OrdinaryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/OrdinaryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/SpecialClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/SpecialClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/StockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar2_SuperMarket/Classes/StockClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,12 +184,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685563154110</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Seminar1">
+      <created>1685911783072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685911783072</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1685911813806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685911813806</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Seminar6" />
+    <MESSAGE value="Seminar2" />
     <MESSAGE value="Seminar1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seminar1" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
 </project>

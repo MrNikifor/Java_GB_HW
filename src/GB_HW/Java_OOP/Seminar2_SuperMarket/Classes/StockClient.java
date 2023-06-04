@@ -46,4 +46,13 @@ public class StockClient extends Actor {
           return this;
      }
 
+     @Override
+     public void returnOrder() {
+
+     }
+
+     @Override
+     public void getReturnOrder() {
+
+     }
 }

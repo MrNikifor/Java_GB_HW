@@ -14,6 +14,7 @@ public class Market implements iMarketBehaviour, iQueueBehaviour {
 
     public Market() {
         this.queue = new ArrayList<iActorBehaviour>();
+        this.retqueue = new ArrayList<iActorBehaviour>();
     }
 
     @Override
@@ -82,26 +83,9 @@ public class Market implements iMarketBehaviour, iQueueBehaviour {
     public void returnOrder() {  // отдаем заказ
         for (iActorBehaviour actor : retqueue) {
             if (actor.isReturnOrder()) {
-                actor.getActor.(true);
+                actor.getActor();
                 System.out.println(actor.getActor().getName() + " клиент вернул заказ ");
             }
         }
     }
-
-//    @Override
-//    public void returnOrder(iMarketBehaviour actor) {  // возврат товара
-//        for (iActorBehaviour actor : retqueue) {
-//            if (!actor.isReturnOrder()) {
-//                actor.setMakeOrder(true);
-//                System.out.println(actor.getActor().getName() + " клиент сделал возврат ");
-//
-//            }
-//        }
-//    }
-//
-//    @Override
-//    public void getReturnOrder() { // причина возврата
-//
-//    }
-
 }

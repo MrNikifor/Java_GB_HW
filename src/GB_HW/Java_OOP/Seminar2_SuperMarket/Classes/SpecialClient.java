@@ -41,4 +41,14 @@ public class SpecialClient extends Actor{
     public Actor getActor(){ // взять основу класса
         return this;
     }
+
+    @Override
+    public void returnOrder() {
+
+    }
+
+    @Override
+    public void getReturnOrder() {
+
+    }
 }

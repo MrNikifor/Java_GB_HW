@@ -5,9 +5,9 @@ import GB_HW.Java_OOP.Seminar2_SuperMarket.Interfaices.iReturnOrder;
 
 public abstract class Actor implements iActorBehaviour, iReturnOrder {
     protected String name;  // имя покупателя
-    protected Boolean isTakeOrder;  // принять заказ
-    protected Boolean isMakeOrder; // сделать заказ
-    protected Boolean isReturnOrder; // возврат заказа
+    protected boolean isTakeOrder;  // принять заказ
+    protected boolean isMakeOrder; // сделать заказ
+    protected boolean isReturnOrder = true; // возврат заказа
 
     public Actor(String name) {
         this.name = name;

@@ -20,11 +20,12 @@ public class App {
         iActorBehaviour client1 = new OrdinaryClient("Boris");
         iActorBehaviour client2 = new OrdinaryClient("Masha");
         iActorBehaviour client3 = new SpecialClient("Prezident",1);
-        iActorBehaviour client4 = new StockClient("Nikita",22,"Bread 10%");
+        StockClient client4 = new StockClient("Tomara",22,"Bread 10%");
 
         market.acceptToMarket(client1);
         market.acceptToMarket(client2);
         market.acceptToMarket(client3);
-        market.returnOrder(client4);
+        market.takeReturnQueue(client4);
+        market.returnOrder();
     }
 }
