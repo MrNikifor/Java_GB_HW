@@ -1,4 +1,4 @@
-package GB_HW.Java_OOP.Seminar1.Domen;
+package GB_HW.Java_OOP.Seminar1_VendingMachines.Domen;
 
 public class Bottle extends Product{
     private int volume;

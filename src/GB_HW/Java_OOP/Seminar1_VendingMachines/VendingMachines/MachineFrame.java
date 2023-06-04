@@ -1,4 +1,4 @@
-package GB_HW.Java_OOP.Seminar1.VendingMachines;
+package GB_HW.Java_OOP.Seminar1_VendingMachines.VendingMachines;
 
 import javax.swing.*;
 

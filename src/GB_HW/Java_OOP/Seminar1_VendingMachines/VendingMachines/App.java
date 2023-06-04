@@ -1,8 +1,8 @@
-package GB_HW.Java_OOP.Seminar1.VendingMachines;
+package GB_HW.Java_OOP.Seminar1_VendingMachines.VendingMachines;
 
-import GB_HW.Java_OOP.Seminar1.Domen.Bottle;
-import GB_HW.Java_OOP.Seminar1.Domen.HotDrink;
-import GB_HW.Java_OOP.Seminar1.Domen.Product;
+import GB_HW.Java_OOP.Seminar1_VendingMachines.Domen.Bottle;
+import GB_HW.Java_OOP.Seminar1_VendingMachines.Domen.HotDrink;
+import GB_HW.Java_OOP.Seminar1_VendingMachines.Domen.Product;
 
 public class App {
     public static void main(String[] args) throws Exception {

@@ -1,6 +1,6 @@
-package GB_HW.Java_OOP.Seminar1.VendingMachines;
+package GB_HW.Java_OOP.Seminar1_VendingMachines.VendingMachines;
 
-import GB_HW.Java_OOP.Seminar1.Domen.Product;
+import GB_HW.Java_OOP.Seminar1_VendingMachines.Domen.Product;
 
 import java.util.ArrayList;
 import java.util.List;
