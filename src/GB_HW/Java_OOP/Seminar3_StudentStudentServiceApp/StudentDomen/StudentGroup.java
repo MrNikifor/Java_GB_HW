@@ -24,7 +24,8 @@ public class StudentGroup implements Iterable<Student>,Comparable<StudentGroup> 
     @Override
     public String toString() {
         return "StudentGroup{" +
-                "numberGroup=" + numberGroup +
+                ", numberGroup=" + numberGroup +
+                ", firstName=" +
                 '}';
     }
 
@@ -51,6 +52,6 @@ public class StudentGroup implements Iterable<Student>,Comparable<StudentGroup> 
     // переопределим метод сортировки по номеру группы
     @Override
     public int compareTo(StudentGroup o) {
-        return (int) (this.numberGroup - o.numberGroup);
+        return (this.numberGroup - o.numberGroup);
     }
 }

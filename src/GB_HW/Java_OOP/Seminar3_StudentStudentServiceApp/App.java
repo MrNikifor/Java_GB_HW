@@ -45,40 +45,52 @@ public class App {
         List<StudentGroup> groupList1 = new ArrayList<>();
         List<StudentGroup> groupList2 = new ArrayList<>();
         List<StudentGroup> groupList3 = new ArrayList<>();
-        groupList1.add(group1);
+        groupList1.add(group3);
         groupList2.add(group2);
+        groupList2.add(group1);
+        groupList3.add(group2);
+        groupList3.add(group3);
         groupList3.add(group3);
 
         // создадим потоки с группами
-        StudentSteam steam1 = new StudentSteam(groupList1);
-        StudentSteam steam2 = new StudentSteam(groupList2);
-        StudentSteam steam3 = new StudentSteam(groupList3);
+        StudentSteam steam1 = new StudentSteam(2,groupList3);
+        StudentSteam steam2 = new StudentSteam(3,groupList2);
+        StudentSteam steam3 = new StudentSteam(1,groupList1);
         List<StudentSteam> steamList = new ArrayList<>();
         steamList.add(steam1);
         steamList.add(steam2);
         steamList.add(steam3);
+
+        for (StudentSteam s :steamList) {
+            System.out.println(s.getGroups().size());
+        }
         Collections.sort(steamList);
-        Collections.sort(studentList1);
-        for (StudentGroup group :steam1) {
-            System.out.println(group);
-            for (Student stud :group1) {
-                System.out.println(stud);
-            }
+
+        for (StudentSteam s :steamList) {
+            System.out.println(s.getGroups().size());
         }
-        Collections.sort(studentList2);
-        for (StudentGroup group :steam2) {
-            System.out.println(group);
-            for (Student stud :group2) {
-                System.out.println(stud);
-            }
-        }
-        Collections.sort(studentList3);
-        for (StudentGroup group :steam3) {
-            System.out.println(group);
-            for (Student stud :group3) {
-                System.out.println(stud);
-            }
-        }
+
+
+//        for (StudentGroup group :steam1) {
+//            System.out.println(group);
+//            for (Student stud :group1) {
+//                System.out.println(stud);
+//            }
+//        }
+//        Collections.sort(studentList2);
+//        for (StudentGroup group :steam2) {
+//            System.out.println(group);
+//            for (Student stud :group2) {
+//                System.out.println(stud);
+//            }
+//        }
+//        Collections.sort(studentList3);
+//        for (StudentGroup group :steam3) {
+//            System.out.println(group);
+//            for (Student stud :group3) {
+//                System.out.println(stud);
+//            }
+//        }
 
 
 //

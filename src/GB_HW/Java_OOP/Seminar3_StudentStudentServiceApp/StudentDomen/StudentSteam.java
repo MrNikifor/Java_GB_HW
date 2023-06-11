@@ -8,7 +8,7 @@ public class StudentSteam implements Iterable<StudentGroup>,Comparable<StudentSt
     private int numberSteam;
     private List<StudentGroup> groups;
 
-    public StudentSteam(List<StudentGroup> groups) {
+    public StudentSteam(int numberSteam, List<StudentGroup> groups) {
         this.numberSteam = numberSteam;
         this.groups = groups;
     }
@@ -48,6 +48,13 @@ public class StudentSteam implements Iterable<StudentGroup>,Comparable<StudentSt
     // переопределим метод сортировки по номеру потока
     @Override
     public int compareTo(StudentSteam o) {
-        return (int) (this.numberSteam - o.numberSteam);
+         return  (groups.size() - o.groups.size());
+//        if(res == 0){
+//            return 0;
+//        }
+//        if (res > 0){
+//            return 1;
+//        }
+//        return -1;
     }
 }

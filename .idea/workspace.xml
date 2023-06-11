@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroupIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentSteam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroupIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentSteam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentSteam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,13 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685915580631</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1686515368022</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686515368022</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Seminar6" />
     <MESSAGE value="Seminar1" />
     <MESSAGE value="Seminar2" />
+    <MESSAGE value="Seminar 3" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
