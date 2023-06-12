@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/Controllers/EmploeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/Controllers/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/Controllers/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/Controllers/iPersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/AverageAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/Emploee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/PersonComporator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/SyudentServise/EmploeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/SyudentServise/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/SyudentServise/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/SyudentServise/iPersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/StudentGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentSteam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/StudentSteam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_4_StudentStudentServiceApp/StudentDomen/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GB_HW.Java_OOP.Seminar2.SuperMarket.Classes" />
       <recent name="GB_HW.Java_OOP.Seminar1.VendingMachines" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.App">
+  <component name="RunManager" selected="Application.GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GB_HW.Java_OOP.Seminar1.VendingMachines.App" />
       <module name="Java_GB_HW" />
@@ -82,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.App" />
+    <configuration name="GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.App" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.*" />
+          <option name="PATTERN" value="GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,7 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.App" />
+        <item itemvalue="Application.GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.App" />
         <item itemvalue="Application.GB_HW.Java_OOP.Seminar2_SuperMarket.App" />
         <item itemvalue="Application.MachineFrame" />
         <item itemvalue="Application.App" />
@@ -238,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686572712070</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1686589635879</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686589635879</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1686589645298</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686589645298</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,5 +275,9 @@
     <MESSAGE value="Seminar 3" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

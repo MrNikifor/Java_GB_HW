@@ -1,11 +1,11 @@
-package GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.StudentDomen;
+package GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.StudentDomen;
+// создадим обобщенный класс родитель
+public class Person {
+    protected String firstName;
+    protected String secondName;
+    protected int age;
 
-public class User {
-    private String firstName;
-    private String secondName;
-    private int age;
-
-    public User(String firstName, String secondName, int age) {
+    public Person(String firstName, String secondName, int age) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;
@@ -33,14 +33,5 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "firstName='" + firstName + '\'' +
-                ", secondName='" + secondName + '\'' +
-                ", age=" + age +
-                '}';
     }
 }

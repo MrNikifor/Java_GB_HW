@@ -1,4 +1,4 @@
-package GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.StudentDomen;
+package GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.StudentDomen;
 
 import java.util.Iterator;
 import java.util.List;
