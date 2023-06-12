@@ -1,7 +1,7 @@
 package GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.StudentDomen;
 // создадим класс студентов унаследовавшихся от User и имплементируем интерфейс Comparable для сортировки студентов
 public class Student extends User implements Comparable<Student> {
-    protected long studentId;
+    private long studentId;
 
     public Student(String firstName, String secondName, int age, long studentId) {
         super(firstName, secondName, age);

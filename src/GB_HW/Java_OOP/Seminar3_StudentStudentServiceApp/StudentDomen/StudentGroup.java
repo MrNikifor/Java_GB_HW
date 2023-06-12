@@ -20,13 +20,16 @@ public class StudentGroup implements Iterable<Student>,Comparable<StudentGroup> 
     public void setStudents(List<Student> students) {
         this.students = students;
     }
-
+// переопределим метод для того чтобы брать данные с класса Student
     @Override
     public String toString() {
-        return "StudentGroup{" +
-                ", numberGroup=" + numberGroup +
-                ", firstName=" +
-                '}';
+        StringBuilder strBid = new StringBuilder();
+        strBid.append(String.format("numberGroup=%s\n", numberGroup));
+        for (Student stud :students) {
+            strBid.append(stud.toString());
+            strBid.append("\n");
+        }
+        return strBid.toString();
     }
 
     // переопределим метод Iterator интерфейса Iterable созданием объекта StudentGroupIterator

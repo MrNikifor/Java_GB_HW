@@ -61,63 +61,18 @@ public class App {
         steamList.add(steam2);
         steamList.add(steam3);
 
-        for (StudentSteam s :steamList) {
-            System.out.println(s.getGroups().size());
-        }
+        //сортировка и вывод групп
         Collections.sort(steamList);
+        Collections.sort(groupList1);
+        Collections.sort(groupList2);
+        Collections.sort(groupList3);
 
         for (StudentSteam s :steamList) {
             System.out.println(s.getGroups().size());
+            for (StudentGroup g :s) {
+                System.out.println(g);
+            }
         }
 
-
-//        for (StudentGroup group :steam1) {
-//            System.out.println(group);
-//            for (Student stud :group1) {
-//                System.out.println(stud);
-//            }
-//        }
-//        Collections.sort(studentList2);
-//        for (StudentGroup group :steam2) {
-//            System.out.println(group);
-//            for (Student stud :group2) {
-//                System.out.println(stud);
-//            }
-//        }
-//        Collections.sort(studentList3);
-//        for (StudentGroup group :steam3) {
-//            System.out.println(group);
-//            for (Student stud :group3) {
-//                System.out.println(stud);
-//            }
-//        }
-
-
-//
     }
 }
-
-
-// for (Student stud :group1) {
-//            System.out.println(stud);
-//        }
-//        System.out.println("--------------");
-//        Collections.sort(group1.getStudents());
-//        for (Student stud :group1) {
-//            System.out.println(stud);
-//        }
-
-// пример работы итератора с цыклом while
-
-//    ArrayList<String> arrayStr = new ArrayList<>();
-//                arrayStr.add("Иван");
-//                arrayStr.add("Вася");
-//                arrayStr.add("Инна");
-//                arrayStr.add("Томара");
-//                System.out.println(arrayStr);
-//
-//                // Выведем элементы с листа
-//                Iterator<String> iterator = arrayStr.iterator();
-//        while (iterator.hasNext()){
-//        System.out.println(iterator.next());
-//        }

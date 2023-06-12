@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentGroupIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentSteam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/StudentSteam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar3_StudentStudentServiceApp/StudentDomen/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686515368022</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1686572712070</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686572712070</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

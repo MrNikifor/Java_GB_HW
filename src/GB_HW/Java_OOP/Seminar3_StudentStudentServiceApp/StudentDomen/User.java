@@ -1,9 +1,9 @@
 package GB_HW.Java_OOP.Seminar3_StudentStudentServiceApp.StudentDomen;
 
 public class User {
-    protected String firstName;
-    protected String secondName;
-    protected int age;
+    private String firstName;
+    private String secondName;
+    private int age;
 
     public User(String firstName, String secondName, int age) {
         this.firstName = firstName;
