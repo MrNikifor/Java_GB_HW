@@ -8,6 +8,7 @@ public class StudentGroup implements Iterable<Student>,Comparable<StudentGroup> 
     private int numberGroup;
     private List<Student> students;
 
+
     public StudentGroup(int numberGroup, List<Student> students) {
         this.numberGroup = numberGroup;
         this.students = students;
