@@ -7,6 +7,7 @@ import GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.SyudentServise.Emploee
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+// Семинар 3
 /*
 1) Создать класс StudentSteam(поток студентов с полем номер потока) содержащий в себе список учебных групп(StudentGroup).
 2) Для класса StudentSteam реализовать интерфейс Iterable и вывести через for несколько групп со списком студентов на кансоль
@@ -17,6 +18,15 @@ import java.util.List;
 2) Переопределить методы ToString классов StudentGroup(выводить идентификатор группы, количество студентов и список студентов)
 и StudentSteam(выводить номер потока, количество групп и список студентов с указанием идентификатора группы)
 */
+// Семинар 4
+/*
+1) Создать класс TeacherService и реализовать аналогично проделанному на семинаре. Подключить обобщенный интерфейс
+  iUserService. Добавить метод вывода списка учителей отсортированного обобщенным классом UserComparator
+2) Создать класс TeacherController. Подключить к классу обобщенный интерфейс iUserController.
+3) Разработать обобщенный класс AverageAge для подсчета среднего возраста студентов, учителей и работников.
+  Вывести результат работы класса на консоль.
+(Задача со *) Переписать иерархию User->Student/Teacher/Emploee в иерархию обобщенных типов.*/
+
 
 public class App {
     public static void main(String[] args) {
