@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Entity/ComplexNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Factory/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Factory/CalculatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Factory/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Factory/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Factory/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Factory/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_OOP/Seminar7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Toy_Store/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Toy_Store/Doll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Toy_Store/FunctionToy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Toy_Store/SimpleToyStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Toy_Store/ToyShopProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Toy_Store/ToyStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687730510719</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1687807314772</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687807314772</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
