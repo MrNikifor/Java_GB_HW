@@ -30,7 +30,7 @@ public class ToyShopProgram {
             switch (choice) {
                 case 1:
                     System.out.println("Список игрушек в магазине:");
-                    for (FunctionToy toy : getToys(toyStore)) {
+                    for (Toy toy : getToys(toyStore)) {
                         System.out.println(toy.getName() + " - " + toy.getPrice());
                     }
                     System.out.println();
@@ -60,9 +60,9 @@ public class ToyShopProgram {
     }
 
     // Метод для получения списка игрушек из магазина
-    private static List<FunctionToy> getToys(ToyStore toyStore) {
-        List<FunctionToy> toys = new ArrayList<>();
-        for (FunctionToy toy : toys) {
+    private static List<Toy> getToys(ToyStore toyStore) {
+        List<Toy> toys = new ArrayList<>();
+        for (Toy toy : toys) {
             toys.add(toy);
         }
         return toys;

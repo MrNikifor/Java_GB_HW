@@ -1,6 +1,6 @@
 package GB_HW.Toy_Store;
 // Реализация интерфейса Toy для конкретной игрушки
-public class Doll implements FunctionToy{
+public class Doll implements Toy {
     private String name;
     private double price;
 
@@ -8,13 +8,14 @@ public class Doll implements FunctionToy{
         this.name = name;
         this.price = price;
     }
+
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return price;
     }
 }

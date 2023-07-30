@@ -1,6 +1,6 @@
 package GB_HW.Toy_Store;
 // Реализация интерфейса Toy для конкретной игрушки
-public class Car implements FunctionToy {
+public class Car implements Toy {
     private String name;
     private double price;
 

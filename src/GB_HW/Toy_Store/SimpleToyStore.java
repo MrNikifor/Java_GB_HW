@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SimpleToyStore implements ToyStore {
-    private List<FunctionToy> toys;
+    private List<Toy> toys;
     private double totalRevenue;
 
     public SimpleToyStore() {
@@ -12,23 +12,14 @@ public class SimpleToyStore implements ToyStore {
         totalRevenue = 0.0;
     }
 
-    private FunctionToy findToy(String name) {
-        for (FunctionToy toy : toys) {
-            if (toy.getName().equalsIgnoreCase(name)) {
-                return toy;
-            }
-        }
-        return null;
-    }
-
     @Override
-    public void addToy(FunctionToy toy) {
+    public void addToy(Toy toy) {
         toys.add(toy);
     }
 
     @Override
     public void sellToy(String name) {
-        FunctionToy toy = findToy(name);
+        Toy toy = findToy(name);
         if (toy != null) {
             toys.remove(toy);
             totalRevenue += toy.getPrice();
@@ -36,6 +27,15 @@ public class SimpleToyStore implements ToyStore {
         } else {
             System.out.println("Такой игрушки нет в наличии.");
         }
+    }
+
+    private Toy findToy(String name) {
+        for (Toy toy : toys) {
+            if (toy.getName().equalsIgnoreCase(name)) {
+                return toy;
+            }
+        }
+        return null;
     }
 
     @Override
