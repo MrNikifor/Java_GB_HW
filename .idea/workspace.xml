@@ -4,18 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="seminar2">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar2HW/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar2HW/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar2HW/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar2HW/Task4.java" afterDir="false" />
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="seminar2HW">
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Model/BadBirthDateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Model/BadFIOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Model/BadGenderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Model/BadPhoneException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Model/DataChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Model/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Model/ParsingDataStringException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/Presenter/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/View/ConsoleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/src/View/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/HomeWork_3/Фамилия" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW_Data_processing/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW_Data_processing/ConsoleDataInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW_Data_processing/DataInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW_Data_processing/DataOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW_Data_processing/DataParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW_Data_processing/FileDataOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar3HW_Data_processing/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar2/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Exceptions/Seminar2/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +53,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2OZeMzcuVxcshg06VWwXtarJI9z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -42,27 +68,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTCustomThemeConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GB_HW.Java_OOP.Seminar2.SuperMarket.Classes" />
       <recent name="GB_HW.Java_OOP.Seminar1.VendingMachines" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task1">
-    <configuration name="GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.App" />
+  <component name="RunManager" selected="Application.Homework3">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.Seminar3HW_Data_processing.Application" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.*" />
+          <option name="PATTERN" value="GB_HW.Exceptions.Seminar3HW_Data_processing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GB_HW.Java_OOP.Seminar5_MVCStudentApp.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_OOP.Seminar5_MVCStudentApp.App" />
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.HomeWork_3.Homework3" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Java_OOP.Seminar5_MVCStudentApp.*" />
+          <option name="PATTERN" value="GB_HW.Exceptions.HomeWork_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_OOP.Seminar7.Main" />
+    <configuration name="InputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.Seminar2HW.Task4.InputExample" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Java_OOP.Seminar7.*" />
+          <option name="PATTERN" value="GB_HW.Exceptions.Seminar2HW.Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework3" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.InputExample" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.ToyShopProgram" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.GB_HW.Java_OOP.Seminar5_MVCStudentApp.App" />
-        <item itemvalue="Application.GB_HW.Java_OOP.Seminar3_4_StudentStudentServiceApp.App" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695809615624</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="seminar2HW">
+      <created>1695843408580</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695843408580</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -327,7 +363,8 @@
     <MESSAGE value="HW_ToyStore" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="seminar2" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar2" />
+    <MESSAGE value="seminar2HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar2HW" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
