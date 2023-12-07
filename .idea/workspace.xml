@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="seminar3HW">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Core/Lessen1/CalcPac/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Core/Lessen1/CalcPac/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Core/Lessen1/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,6 +159,7 @@
       <updated>1681772487217</updated>
       <workItem from="1701171237255" duration="1372000" />
       <workItem from="1701317300658" duration="16000" />
+      <workItem from="1701695983245" duration="463000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar1">
       <created>1681773681308</created>
@@ -353,7 +350,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696281216516</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Lesson2">
+      <option name="closed" value="true" />
+      <created>1701696199717</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701696199717</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Lesson2">
+      <option name="closed" value="true" />
+      <created>1701696206925</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1701696206925</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +382,8 @@
     <MESSAGE value="seminar2" />
     <MESSAGE value="seminar2HW" />
     <MESSAGE value="seminar3HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar3HW" />
+    <MESSAGE value="Lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson2" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
