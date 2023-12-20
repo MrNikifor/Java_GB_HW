@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson4">
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +162,8 @@
       <workItem from="1701695983245" duration="463000" />
       <workItem from="1701962104539" duration="3386000" />
       <workItem from="1702340707832" duration="2000" />
+      <workItem from="1702568677795" duration="324000" />
+      <workItem from="1702906617758" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar1">
       <created>1681773681308</created>
@@ -384,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702280593301</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Lesson5">
+      <option name="closed" value="true" />
+      <created>1702568924785</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702568924785</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +413,8 @@
     <MESSAGE value="Lesson2" />
     <MESSAGE value="Lesson3" />
     <MESSAGE value="Lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson4" />
+    <MESSAGE value="Lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson5" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
