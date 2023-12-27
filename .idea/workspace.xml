@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson5">
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson1">
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Client/ClientGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Client/ClientView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Gui/ServerWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Gui/iServerGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Repository/ServerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Repository/iServerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Service/ServerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Service/iServerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson1/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson1/Server.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,7 +86,7 @@
       <recent name="GB_HW.Java_OOP.Seminar1.VendingMachines" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.GB_HW.Java_Development_Kit.Lesson2.Main">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.Seminar3HW_Data_processing.Application" />
       <module name="Java_GB_HW" />
@@ -87,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.Seminar3HW.Homework3" />
+    <configuration name="GB_HW.Java_Development_Kit.Lesson2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_Development_Kit.Lesson2.Main" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Exceptions.Seminar3HW.*" />
+          <option name="PATTERN" value="GB_HW.Java_Development_Kit.Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.Seminar2HW.Task4.InputExample" />
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.Seminar3HW.Homework3" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Exceptions.Seminar2HW.Task4.*" />
+          <option name="PATTERN" value="GB_HW.Exceptions.Seminar3HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GB_HW.Java_Development_Kit.Lesson2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.InputExample" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +177,10 @@
       <workItem from="1702340707832" duration="2000" />
       <workItem from="1702568677795" duration="324000" />
       <workItem from="1702906617758" duration="8000" />
+      <workItem from="1703081206068" duration="295000" />
+      <workItem from="1703165386644" duration="8000" />
+      <workItem from="1703606002179" duration="669000" />
+      <workItem from="1703662653877" duration="1878000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar1">
       <created>1681773681308</created>
@@ -394,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702568924785</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Lesson1">
+      <option name="closed" value="true" />
+      <created>1703081376691</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1703081376691</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +439,8 @@
     <MESSAGE value="Lesson3" />
     <MESSAGE value="Lesson4" />
     <MESSAGE value="Lesson5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson5" />
+    <MESSAGE value="Lesson1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson1" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
