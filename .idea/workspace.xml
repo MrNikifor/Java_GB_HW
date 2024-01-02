@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson1">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Client/ClientGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Client/ClientView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Gui/ServerWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Gui/iServerGui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Model/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Repository/ServerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Repository/iServerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Service/ServerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Server/Service/iServerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/main.java" afterDir="false" />
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson2">
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lecture3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson1/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson1/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,7 +169,9 @@
       <workItem from="1703081206068" duration="295000" />
       <workItem from="1703165386644" duration="8000" />
       <workItem from="1703606002179" duration="669000" />
-      <workItem from="1703662653877" duration="1878000" />
+      <workItem from="1703662653877" duration="2203000" />
+      <workItem from="1703717995353" duration="2854000" />
+      <workItem from="1704207924069" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar1">
       <created>1681773681308</created>
@@ -419,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703081376691</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Lesson2">
+      <option name="closed" value="true" />
+      <created>1703683910782</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703683910782</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,12 +434,12 @@
     <MESSAGE value="seminar2" />
     <MESSAGE value="seminar2HW" />
     <MESSAGE value="seminar3HW" />
-    <MESSAGE value="Lesson2" />
     <MESSAGE value="Lesson3" />
     <MESSAGE value="Lesson4" />
     <MESSAGE value="Lesson5" />
     <MESSAGE value="Lesson1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson1" />
+    <MESSAGE value="Lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson2" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
