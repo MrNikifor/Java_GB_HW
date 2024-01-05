@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson2">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lecture3/Main.java" afterDir="false" />
+    <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson3">
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson4/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson4/WorkerCatalog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GB_HW/Java_Development_Kit/Lesson2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,37 +52,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/ProjectJava/Java_GB_HW&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/ProjectJava/Java_GB_HW",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GB_HW.Java_OOP.Seminar2.SuperMarket.Classes" />
       <recent name="GB_HW.Java_OOP.Seminar1.VendingMachines" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GB_HW.Java_Development_Kit.Lesson2.Main">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Exceptions.Seminar3HW_Data_processing.Application" />
+  <component name="RunManager" selected="Application.GB_HW.Java_Development_Kit.Lesson4.Main">
+    <configuration name="GB_HW.Java_Development_Kit.Lesson2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_Development_Kit.Lesson2.Main" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Exceptions.Seminar3HW_Data_processing.*" />
+          <option name="PATTERN" value="GB_HW.Java_Development_Kit.Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GB_HW.Java_Development_Kit.Lesson2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_Development_Kit.Lesson2.Main" />
+    <configuration name="GB_HW.Java_Development_Kit.Lesson4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GB_HW.Java_Development_Kit.Lesson4.Main" />
       <module name="Java_GB_HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GB_HW.Java_Development_Kit.Lesson2.*" />
+          <option name="PATTERN" value="GB_HW.Java_Development_Kit.Lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GB_HW.Java_Development_Kit.Lesson4.Main" />
         <item itemvalue="Application.GB_HW.Java_Development_Kit.Lesson2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.Homework3" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +177,8 @@
       <workItem from="1703662653877" duration="2203000" />
       <workItem from="1703717995353" duration="2854000" />
       <workItem from="1704207924069" duration="20000" />
+      <workItem from="1704230553257" duration="317000" />
+      <workItem from="1704489702775" duration="4057000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar1">
       <created>1681773681308</created>
@@ -418,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703683910782</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Lesson3">
+      <option name="closed" value="true" />
+      <created>1704230804675</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1704230804675</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,12 +449,12 @@
     <MESSAGE value="seminar2" />
     <MESSAGE value="seminar2HW" />
     <MESSAGE value="seminar3HW" />
-    <MESSAGE value="Lesson3" />
     <MESSAGE value="Lesson4" />
     <MESSAGE value="Lesson5" />
     <MESSAGE value="Lesson1" />
     <MESSAGE value="Lesson2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson2" />
+    <MESSAGE value="Lesson3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson3" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
