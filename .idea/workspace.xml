@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="138fa362-6c17-4393-bf46-bba6dd8a82e0" name="Changes" comment="Lesson2">
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Junior/Lesson3_Serialization/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Junior/Lesson3_Serialization/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Junior/Lesson5_Client_Server/Client/Chat_Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Junior/Lesson5_Client_Server/Client/Chat_Client/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Junior/Lesson5_Client_Server/Server/Chat_server/ClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Junior/Lesson5_Client_Server/Server/Chat_server/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GB_HW/Java_Junior/Lesson5_Client_Server/Server/Chat_server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +192,8 @@
       <workItem from="1707475691213" duration="259000" />
       <workItem from="1707475962064" duration="4215000" />
       <workItem from="1708030685377" duration="1324000" />
+      <workItem from="1708285641886" duration="924000" />
+      <workItem from="1709043744843" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="Seminar1">
       <created>1681773681308</created>
